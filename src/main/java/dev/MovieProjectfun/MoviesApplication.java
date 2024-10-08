@@ -1,17 +1,18 @@
-package dev.MovieProjectfun.movies;
+package dev.MovieProjectfun;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//These imports and the RestController are for the Hello World endpoint example below
+// NOTE: These imports and the RestController are for the Hello World endpoint example below
 // import org.springframework.web.bind.annotation.GetMapping;
 // import org.springframework.web.bind.annotation.RestController;
-// @RestController
 
 @SpringBootApplication
+// @RestController //NOTE: This is for the example endpoint for Hello World
 public class MoviesApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(MoviesApplication.class, args);
 	}
 
